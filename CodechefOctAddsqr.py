@@ -1,4 +1,4 @@
-W, H, N, M = map(int, input().split())
+W, H, N, M = map(int, input().split()) #Note :- A Naive solution provides only 50 percent result.
 Vertical_Planes = list(map(int, input().split()))
 Horizontal_Planes = list(map(int, input().split()))
 horizontal_lengths = []
